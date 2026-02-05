@@ -8,7 +8,7 @@
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.5; }
     .wrap { max-width: 900px; margin: 0 auto; padding: 36px 18px; }
     h1 { margin: 0 0 6px; }
-    .sub { margin: 0 0 18px; color: #444; }
+    .sub { margin: 0 0 10px; color: #444; }
     .row { display: flex; gap: 14px; flex-wrap: wrap; margin: 10px 0 22px; }
     .chip { border: 1px solid #ddd; padding: 8px 12px; border-radius: 999px; }
     h2 { margin-top: 28px; }
@@ -20,7 +20,10 @@
 <body>
   <div class="wrap">
     <h1>Hancheng Wang</h1>
-    <p class="sub">Semiconductor Process & Materials Engineer | Process Development | Reliability | Data-driven Engineering</p>
+    <p class="sub">Semiconductor Process & Materials Engineer | Process/R&D Development | Reliability | Data-driven Decision Support</p>
+    <p class="muted" style="margin: 6px 0 18px;">
+      Research depth with an engineering focus: translating experimental insights into actionable process and reliability decisions.
+    </p>
 
     <div class="row">
       <div class="chip">Email: <a href="mailto:hcwang313@gmail.com">hcwang313@gmail.com</a></div>
@@ -35,17 +38,25 @@
       <li>Materials & device characterization (SEM/EDS, XRD, FTIR, electrical/optical measurements) to support failure analysis and feasibility evaluation.</li>
       <li>Reliability and yield risk analysis bridging lab results and manufacturing decisions.</li>
       <li>Python-based data analysis and automation for engineering insights (conceptual demonstrations only; no confidential data).</li>
+      <li>My research background informs my engineering work, with an emphasis on feasibility evaluation, process windows, and manufacturing-facing decision support.</li>
+    </ul>
+
+    <h2>Research-to-Engineering Strength</h2>
+    <ul>
+      <li>Operate across experiments, characterization, and data analysis to build evidence-backed engineering decisions.</li>
+      <li>Experienced in defining process windows, repeatability controls, and process–property correlations for technology development.</li>
     </ul>
 
     <h2>Selected Technical Projects</h2>
 
     <div class="card">
       <b>Laser Spike Annealing for Advanced Integration</b>
-      <div class="muted">Process development | Process window | Structure–property correlation</div>
+      <div class="muted">Process development | Non-equilibrium thermal regimes | Process window</div>
       <ul>
-        <li>Designed thin-film substrates enabling sub-millisecond thermal processing up to ~2200°C.</li>
-        <li>Calibrated temperature–time profiles vs. laser power/dwell to correlate process and material response.</li>
-        <li>Established repeatable fixtures and workflows to improve uniformity and throughput.</li>
+        <li>Developed LSA experiments to probe thin-film stability under sub-millisecond thermal exposure, informing integration-facing feasibility.</li>
+        <li>Designed ~100 nm thin-film substrates enabling rapid thermal processing up to ~2200°C and mapped operating envelopes vs. laser power/dwell.</li>
+        <li>Calibrated temperature–time profiles to build process–structure relationships and guide repeatable experimental conditions.</li>
+        <li><i>Engineering outcome:</i> translated research observations into defined process windows and repeatable workflows for technology evaluation.</li>
       </ul>
     </div>
 
@@ -53,17 +64,21 @@
       <b>Contamination & Failure Analysis Support (R&D Environment)</b>
       <div class="muted">SEM/EDS/FTIR | Root-cause investigation | Quantification</div>
       <ul>
-        <li>Performed materials and contamination characterization to support engineering investigations.</li>
-        <li>Built Python-based image quantification tools (high-level workflow only) to improve consistency.</li>
+        <li>Performed materials/contamination characterization (SEM/EDS/FTIR) to support root-cause investigations and method refinement.</li>
+        <li>Built Python-based image quantification tools (high-level workflow; no confidential data shown) to improve consistency and throughput.</li>
+        <li>Collaborated with senior engineers/scientists to connect observed signatures with plausible failure mechanisms and next-step experiments.</li>
+        <li><i>Engineering outcome:</i> enabled faster, more repeatable screening and clearer communication of evidence in investigation workflows.</li>
       </ul>
     </div>
 
     <div class="card">
       <b>Reliability Data Analytics Workflow (Conceptual Demo)</b>
-      <div class="muted">Trend/anomaly logic | Decision support | Manufacturing-facing</div>
+      <div class="muted">Trend/anomaly logic | Risk flags | Manufacturing-facing decision support</div>
       <ul>
-        <li>Illustrated a workflow to convert multi-stage test data into early risk flags using statistical/ML logic.</li>
-        <li>Presented only synthetic/illustrative examples to respect confidentiality.</li>
+        <li>Designed a generic workflow to convert multi-stage test measurements into interpretable risk signals using statistical + ML logic.</li>
+        <li>Focused on feature definitions (deltas, drift rates, stage-to-stage changes) that map to engineering hypotheses rather than “black-box” scoring.</li>
+        <li>Presented synthetic/illustrative examples only to respect confidentiality while demonstrating reasoning and decision logic.</li>
+        <li><i>Engineering outcome:</i> a practical framework for early risk flagging and structured defect reasoning in reliability monitoring.</li>
       </ul>
     </div>
 
